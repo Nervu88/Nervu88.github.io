@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html lang="fi">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>web-standardit</title>
+        <script>
+            document.createElement("header");
+            document.createElement("footer");
+            document.createElement("nav");
+            document.createElement("aside");
+        </script>
+    </head>
+
+    <body>
+        <header>
+            <h1>Asiaa web-standardeista</h1>
+            <nav>
+                <h2>Tärkeimmät web-standardit ovat:</h2>
+
+                    <ul class="navi">
+                        <li>
+                            <a href="./Harjoitus1.html">HTML</a>
+                        </li>
+                        <li>
+                            <a href="./Harjoitus1.html">XML</a>
+                        </li>
+                        <li>
+                            <a href="./Harjoitus1.html">CSS</a>
+                        </li>
+                        <li>
+                            <a href="./Harjoitus1.html">JavaScript</a>
+                        </li>
+                    </ul>
+
+                <aside>  
+                   Näiden tekniikoiden avulla tehdään web-sivuja, joita voidaan käyttää mitä erilaisimmilla päätelaitteilla ja ohjelmistoilla. 
+                </aside>    
+            </nav>
+        </header>
+
+            <article class="ar1" id="a1">
+                <h2>HTML ja mihin sitä käytetään</h2>
+
+                <ol start="1">
+                    <li>HTML on tehty universaaliksi julkaisukieleksi, jota tietokoneet ja niissä käytetyt ohjelmat ymmärtävät.</li>
+                    <li>HTMLn avulla sisällöntuottajat saavat julkaistua WWWssä dokumentteja verkossa luettavaksi.</li>
+                    <li>HTML-komentojen avulla määritellään dokumentin rakenne.</li></ol>
+
+                <p>Sisältö voi olla</p>
+                <ul class="sisältö">
+                    <li>tekstiä</li>
+                    <li>taulukoita</li>
+                    <li>kuvia</li>
+                    <li>linkkejä</li>
+                    <li>videoita ja ääntä</li>
+                </ul>
+                <p>
+                    Merkittävä <b>HTML</b>n ominaisuus on myös <strong>lomakkeet</strong>, 
+                    jotka ovat usein yhteydessä tietokantoihin tai muihin taustajärjestelmiin, 
+                    mahdollistaen näin interaktiivisen toiminnan kuten hakujen suorittamisen ja ostosten tekemisen. 
+                </p>
+                <aside>Lisätietoja englanninkielellä virallisesta <abbr title="HyperText MarkupLanguage">HTML</abbr> 5n spesifikaatiosta löydät 
+                <a href="https://www.w3.org/TR2014REC-html5-20141028introduction.html#introduction">täältä</a></aside>
+
+            </article>
+
+            <article class="ar2" id="a2">
+                <h2>Mitä CSS -tyylisivut ovat</h2>    
+                <p>
+                    <b>CSS</b> -tyylisivut määrittelevät sen, miltä dokumentit näyttävät kuvaruudulla, tulostettuna tai jopa ääneen lausuttuna.
+                    <b>W3C</b> on aktiivisesti kannustanut tyylisivujen käyttöä Wepissä aina World Wide Web Consortiumin perustamisesta, jo vuodesta 1994 lähtien.
+                    Style Activity -ryhmä on tuottanut lukuisia <b>W3C</b>n suosituksia <strong>(CSS1, CSS2, CSS3,  XPath, XSLT).</strong>
+                </p>
+                <p>
+                    Liittämällä tyylisivun www-dokumenttiin (esim. <strong>HTML</strong> tai <strong>XML</strong>) sivujen tekijät ja lukijat voivat vaikuttaa dokumenttien ulkoasuun merkittävästi monipuolisemmin kuin pelkästään HTML-komentoja käyttämällä alustariippumattomuuden kärsimättä.
+                </p>
+                <p>
+                    Sivun kehittäjän on helpoin tutustua tyylisivuihin käyttämällä nykyaikaisia selaimia kuten <b>Firefox</b>, <b>Safari</b>, <b>Chrome</b>, <b>Opera</b>, <b>Edge</b> ja <b>Internet Explorer</b> ja tutkia <b>HTML</b> sekä <b>CSS</b> koodia selaimen kehittäjätyökaluilla <strong>(developer tools)</strong>.
+                    <br>Tyylisivuista on tunnettu käytettävyysasiantuntija <b>Jacob Nielsen</b> sanonut mm. seuraavaa <i>“Hopefully, future Web innovations will emulate the example set by the Web Consortium in its work on CSS”.</i>
+                </p>
+                <aside>
+                    Lisätietoja <b>CSS</b>stä saa <b>W3Cn</b> <a href="https://www.w3.org/StyleCSS.com">kotisivulta</a>
+</aside>
+            </article>
+
+            <article class="ar3" id="a3">
+                <h2>JavaScript ja web-sivut</h2>
+                <p>
+                    JavaScript on kevyt skriptikieli jota kutsutaan joskus myös leikillisesti webmasterin ohjelmointikieleksi.
+                    JavaScriptiä käytetään pääosin web-sivuilla parantamassa sivuston käyttökokemusta. 
+                    JavaScriptin avulla voi mm. manipuloida HTML-dokumentin rakennetta ja ulkoasua sekä tarkistaa HTML-lomakkeiden tietoja ennen kuin ne lähetetään palvelimelle. 
+                </p>
+                <p>
+                    Modernit selaimet voivat <b>JavaScript</b>in avulla myös keskustella web-palvelimen kanssa.
+                    Tällaisia uudentyyppisiä sovelluksia kutsutaan yleisesti <b>Ajax</b>-sovelluksiksi.
+                    Ajax-sovelluksissa tiedon noutaminen ja lähettäminen tapahtuu asynkronisesti taustalla, jolloin selain on koko ajan aktiivisesti käytettävissä.
+                </p>
+                <aside>
+                    <b>JavaScript</b> -kielen kehitti aikoinaan <a href="https://wikipedia.org/wiki/Netscape">Netscape -yhtiön</a> palveluksessa ollut <strong>Brendan Eich</strong>, ja hän on edelleen kielen kehityksessä mukana.
+                    <b>JavaScript</b> -kielen kehitystä sekä dokumentaatiota voi seurata Mozilla -organisaation <a href="https://developer.mozilla.org/fidocsWebJavaScript.com">sivustolla</a>
+                </aside>
+            </article>  
+
+        <footer>Harjoitustyö by Riku Juhola</footer>
+    </body>
+</html>

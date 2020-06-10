@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="stylelaskin.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+    <link rel="shortcut icon" type="image/x-icon" href="Kuvat/favicon.ico" />
+
+    <meta charset="utf=8">
+    
+    <title> Laskin Harjoitus</title>
+
+<body>
+<div class="header">    
+<h1> JavaScript Laskinharjoitus</h1>
+<p id="tekija">by Riku Juhola, Careeria</p>
+</div>
+    <div id="content">
+        <div id="wrapper">
+            <table>
+                    <tr>
+                            <td id="laskinotsikko">
+                                 <label>Peruslaskin</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="kenttaosaSyote">
+                                 <label id="kenttaSyote"  class="kenttaSyote">0</label>      
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="kenttaosa">
+                                <label id="kentta"  class="kentta">0</label>      
+                            </td>
+                        </tr>
+               <tr>
+                    <td>
+                        <button id="clear" class="clear" onclick="tyhjenna()">C</button>
+                        <button id="clear" class="clear" onclick="tyhjennaSyote()">CE</button>          
+                    </td>
+                </tr>
+                    <tr>
+                        <td>
+                            <button class="luku" id="button7" value="7" onclick="laskinFunktio(this)">7</button>
+                            <button class="luku" id="button8" value="8" onclick="laskinFunktio(this)">8</button>
+                            <button class="luku" id="button9" value="9" onclick="laskinFunktio(this)">9</button>
+                            <button class="operaattori" id="buttonplus" value="+" onclick="laskinOperaattori(this)">+</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="luku" id="button4" value="4" onclick="laskinFunktio(this)">4</button>
+                            <button class="luku" id="button5" value="5" onclick="laskinFunktio(this)">5</button>
+                            <button class="luku" id="button6" value="6" onclick="laskinFunktio(this)">6</button>
+                            <button class="operaattori" id="buttonmiinus" value="-" onclick="laskinOperaattori(this)">-</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="luku" id="button1" value="1" onclick="laskinFunktio(this)">1</button>
+                            <button class="luku" id="button2" value="2" onclick="laskinFunktio(this)">2</button>
+                            <button class="luku" id="button3" value="3" onclick="laskinFunktio(this)">3</button>
+                            <button class="operaattori" id=buttonkerto value="*" onclick="laskinOperaattori(this)">*</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="luku" id="button0" value="0" onclick="laskinFunktio(this)">0</button>
+                            <button class="luku" id="buttonpiste" value="." onclick="pistemerkki(this)">.</button>
+                            <button  class="operaattori" id=yhtakuin data-result="" onclick="laskeYhteen()">=</button>
+                            <button class="operaattori" id=buttonjako value="/" onclick="laskinOperaattori(this)">/</button>
+                        </td>  
+                    </tr>  
+                </table>  
+            </div>
+        </div>
+
+        <div class="infot">
+                <h2> C - Poistaa kaiken</h2>
+                <h2> CE - Poistaa syötteen</h2>
+            </div>
+  
+            <script src="scripts.js"></script>
+
+
+        </body>
+    </head>
+</html>
